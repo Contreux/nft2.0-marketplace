@@ -1,4 +1,4 @@
-# NFT2.0 Marketplace
+# NFT2.0 Marketplace - Contreux
 
 
 ## Tech Stack & Tools
