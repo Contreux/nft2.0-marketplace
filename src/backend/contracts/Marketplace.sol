@@ -7,6 +7,10 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 import "hardhat/console.sol";
 
+/**  Convert marketplace contract into a store for all listed nfts
+ *    Determine what level of architecure needs to be built to do so
+ */
+
 contract Marketplace is ReentrancyGuard {
     // Variables
     address payable public immutable feeAccount; // the account that receives fees
