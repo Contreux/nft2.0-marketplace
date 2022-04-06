@@ -9,6 +9,8 @@ import "hardhat/console.sol";
 
 /**  Convert marketplace contract into a store for all listed nfts
  *    Determine what level of architecure needs to be built to do so
+ *    Current architecture will have to be public for a ledger to pull all
+ *    listed NFTs, check out RMRK for inspiration
  */
 
 contract Marketplace is ReentrancyGuard {
